@@ -6,12 +6,12 @@ body {
 }
 
 #hero {
-    /* background-image: url("/img/galaxy.webp"); */
     background-image: url("https://media2.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif?cid=ecf05e47ia0gp8n2shfxb0d6buoydwwsn5kbhufo6f5s9dnn&rid=giphy.gif&ct=g");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 1rem 0 5rem;    
+    padding-top: 1rem;
+    height: 50vh;
 }
 
 #logo {
@@ -20,6 +20,10 @@ body {
 
 h1 {
     text-shadow: 0 0 4px black;
+}
+
+h3 {
+    margin: 0;
 }
 
 .button {
@@ -36,7 +40,22 @@ h1 {
     background-color: #82a5ca;
 }
 
+#terms {
+    background-image: url("/img/apollo-lunar-module.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 1rem;
+    height: 50vh;
+}
+
+/* UTILITY CLASSES */
+
 .underline {
     text-decoration: underline;
     text-decoration-color: white;
+}
+
+.spacer-1 {
+    margin-bottom: 1rem;
 }
