@@ -5,4 +5,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    padding: .25rem .5rem;
+    font-weight: 600;
 }
