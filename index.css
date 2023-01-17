@@ -60,6 +60,18 @@ h3 {
     height: 50vh;
 }
 
+footer {
+    background-color: black;
+    padding: 1rem;
+    font-size: .75rem;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
 /* UTILITY CLASSES */
 
 .underline {
