@@ -1,12 +1,16 @@
 body {
     color: #82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+
+#hero {
     background-image: url("/img/galaxy.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
-    text-align: center;
-    font-family: 'Orbitron', sans-serif;
+    padding: 1rem 0 5rem;    
 }
 
 #logo {
