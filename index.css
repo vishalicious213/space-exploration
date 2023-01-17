@@ -17,6 +17,10 @@ body {
     width: 10rem;
 }
 
+h1 {
+    text-shadow: 0 0 4px black;
+}
+
 .button {
     color: #82a5ca;
     background-color: white;
@@ -28,4 +32,5 @@ body {
 
 .underline {
     text-decoration: underline;
+    text-decoration-color: white;
 }
