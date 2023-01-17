@@ -6,7 +6,8 @@ body {
 }
 
 #hero {
-    background-image: url("/img/galaxy.webp");
+    /* background-image: url("/img/galaxy.webp"); */
+    background-image: url("https://media2.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif?cid=ecf05e47ia0gp8n2shfxb0d6buoydwwsn5kbhufo6f5s9dnn&rid=giphy.gif&ct=g");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
