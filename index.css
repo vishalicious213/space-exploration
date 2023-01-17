@@ -24,8 +24,8 @@ h1 {
 
 h3 {
     margin: 0;
-    /* text-shadow: 0 0 4px black; */
-    text-shadow: 2px 2px white;
+    color: white;
+    text-shadow: 2px 2px #82a5ca;
 }
 
 .button {
@@ -69,7 +69,17 @@ footer {
 #links {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-bottom: 1rem;
+}
+
+.footer-link {
+    padding: .25rem 1rem;
+    width: 6rem;
+}
+
+.footer-link:hover {
+    outline: 1px solid #82a5ca;
 }
 
 /* UTILITY CLASSES */
